@@ -3,37 +3,668 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>MealKind Privacy Policy</title>
+  <meta
+    name="description"
+    content="Privacy Policy for the MealKind mobile application."
+  >
+
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;max-width:800px;margin:50px auto;padding:0 20px;line-height:1.6;color:#222}
-    h1,h2{color:#111}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #faf8f3;
+    }
+
+    h1, h2 {
+      color: #1f2921;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 32px;
+      line-height: 1.3;
+    }
+
+    h3 {
+      color: #354638;
+      margin-top: 24px;
+    }
+
+    a {
+      color: #b96548;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      color: #666;
+      margin-top: 0;
+    }
+
+    .notice {
+      background: #f2ede3;
+      border-left: 4px solid #b96548;
+      border-radius: 4px;
+      margin: 24px 0;
+      padding: 14px 18px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 28px 18px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+    }
   </style>
 </head>
+
 <body>
-<h1>MealKind Privacy Policy</h1>
-<p>Last updated: September 17, 2026</p>
+  <main>
+    <h1>MealKind Privacy Policy</h1>
+    <p class="updated">Last updated: September 20, 2026</p>
 
-<p>MealKind respects your privacy. This Privacy Policy explains how information is handled when you use the MealKind application.</p>
+    <p>
+      This Privacy Policy explains how A+ Apps (“A+ Apps,” “we,” “us,” or “our”)
+      handles information when you use the MealKind mobile application
+      (“MealKind” or the “App”).
+    </p>
 
-<h2>Information We Collect</h2>
-<p>MealKind may collect account information such as your email address when you sign in. Information you provide when using MealKind may also be processed to provide the app's features.</p>
+    <p>
+      We designed MealKind to keep meal history and personal food information on
+      your device whenever practical. Some information must be processed by
+      trusted service providers to provide account access, AI-powered suggestions,
+      subscriptions, and notifications.
+    </p>
 
-<h2>Meal and Image Data</h2>
-<p>Meal descriptions and images you choose to analyze may be processed by third-party AI services to provide meal-related suggestions. Meal images are not sold to advertisers.</p>
+    <div class="notice">
+      MealKind does not sell personal information, display third-party advertising,
+      or use personal information for cross-app behavioral advertising or tracking.
+    </div>
 
-<h2>Subscriptions</h2>
-<p>Subscriptions and purchases are processed by Apple and RevenueCat. MealKind does not directly store your payment card information.</p>
+    <h2>1. Information We Handle</h2>
 
-<h2>Notifications</h2>
-<p>If you enable notifications, MealKind may use OneSignal to send reminders and app-related notifications.</p>
+    <h3>Account information</h3>
+    <p>
+      MealKind requires an account for account-based features. When you sign in
+      using Apple or Google, we may receive:
+    </p>
 
-<h2>Data Sharing</h2>
-<p>We do not sell your personal information. Information may be shared with service providers only as necessary to operate the application.</p>
+    <ul>
+      <li>Your email address, including an Apple private relay address if you choose to hide your email;</li>
+      <li>A unique account and authentication-provider identifier;</li>
+      <li>Your name or profile information if the sign-in provider makes it available; and</li>
+      <li>Authentication tokens needed to keep you signed in securely.</li>
+    </ul>
 
-<h2>Account Deletion</h2>
-<p>You may request deletion of your account and associated account data from within the app or by contacting us.</p>
+    <p>
+      MealKind does not receive or store your Apple ID or Google account password.
+      Authentication is provided through Apple, Google, and Supabase.
+    </p>
 
-<h2>Contact</h2>
-<p>For privacy questions, contact: <a href="mailto:aplusapps.app@gmail.com">aplusapps.app@gmail.com</a></p>
+    <h3>Meal, image, and recommendation information</h3>
+    <p>
+      When you request a meal analysis or suggestion, the information processed
+      may include:
+    </p>
+
+    <ul>
+      <li>Photos you take or explicitly select;</li>
+      <li>Meal descriptions and foods you enter;</li>
+      <li>Food items identified from a photo or menu;</li>
+      <li>Corrections, choices, questions, and answers you provide;</li>
+      <li>Dietary preferences, allergies, foods you avoid, and temporary preferences;</li>
+      <li>Your manually entered travel city when Travel mode is enabled;</li>
+      <li>Meal context such as available time, eating environment, cravings, or meal type;</li>
+      <li>Previous suggestions needed to avoid repeating an idea;</li>
+      <li>Aggregated meal check-in information used to describe a supported pattern; and</li>
+      <li>The resulting AI-generated analysis or recommendation.</li>
+    </ul>
+
+    <p>
+      MealKind does not request access to your device’s location. If you enable
+      Travel mode, the city is entered manually by you. Turning Travel mode off
+      stops the city from being included in future AI requests.
+    </p>
+
+    <p>
+      Photos, descriptions, preferences, and related context are sent through
+      MealKind’s Supabase backend to OpenAI only when you request an AI-powered
+      feature and have granted AI permission.
+    </p>
+
+    <h3>Information stored on your device</h3>
+    <p>
+      MealKind stores the following information locally on your device:
+    </p>
+
+    <ul>
+      <li>Meal and menu history;</li>
+      <li>Photos associated with your meal history;</li>
+      <li>Saved meals and recommendations;</li>
+      <li>Dietary preferences, allergies, avoided foods, and temporary preferences;</li>
+      <li>Your Travel mode city;</li>
+      <li>Meal check-in answers and locally calculated patterns;</li>
+      <li>Notification and consent preferences; and</li>
+      <li>Other settings needed to operate the App.</li>
+    </ul>
+
+    <p>
+      Meal history, photos, complete check-in answers, and detailed food patterns
+      are not stored as meal history in MealKind’s cloud database. They remain on
+      your device except for the limited processing described in this policy.
+    </p>
+
+    <p>
+      If your device is configured to back up application data to iCloud, locally
+      stored MealKind information may be included in that backup. Apple controls
+      the handling and retention of iCloud backups.
+    </p>
+
+    <h3>Subscription and purchase information</h3>
+    <p>
+      Purchases are processed by Apple through the App Store. RevenueCat helps
+      MealKind verify subscription status and entitlements. Information processed
+      for this purpose may include:
+    </p>
+
+    <ul>
+      <li>A pseudonymous MealKind account identifier;</li>
+      <li>App and device information;</li>
+      <li>Product and entitlement identifiers;</li>
+      <li>Purchase, renewal, expiration, refund, and subscription status; and</li>
+      <li>Whether a transaction occurred in Apple’s sandbox or production environment.</li>
+    </ul>
+
+    <p>
+      A+ Apps does not receive or store your full payment card number. Apple
+      processes payment information under Apple’s own policies.
+    </p>
+
+    <h3>Notification information</h3>
+    <p>
+      If you enable meal reminders, OneSignal may process:
+    </p>
+
+    <ul>
+      <li>Your pseudonymous MealKind account identifier;</li>
+      <li>Your device’s push-notification token;</li>
+      <li>Device, operating-system, app-version, and notification-delivery information;</li>
+      <li>Notification subscription status and engagement, such as notification taps;</li>
+      <li>A locally generated meal identifier; and</li>
+      <li>A short meal name used to create a contextual reminder.</li>
+    </ul>
+
+    <p>
+      Meal photos, ingredients, detailed food features, and complete check-in
+      answers are not sent to OneSignal.
+    </p>
+
+    <h3>AI usage and operational information</h3>
+    <p>
+      MealKind’s backend processes limited operational information needed to
+      provide and protect the service, including:
+    </p>
+
+    <ul>
+      <li>Your account identifier;</li>
+      <li>The number and timing of AI requests;</li>
+      <li>Your free-access or subscription entitlement status;</li>
+      <li>The type of operation requested;</li>
+      <li>Technical error categories and request status; and</li>
+      <li>Standard server information such as timestamps, IP addresses, and security logs that may be processed by hosting providers.</li>
+    </ul>
+
+    <p>
+      MealKind does not intentionally place meal descriptions, photos, generated
+      recommendations, or other user content in its operational logs.
+    </p>
+
+    <h3>Support communications</h3>
+    <p>
+      If you contact us, we process your email address, the contents of your
+      message, and any information you choose to provide so we can respond and
+      resolve your request.
+    </p>
+
+    <h2>2. Device Permissions</h2>
+
+    <p>Depending on the features you choose, MealKind may request:</p>
+
+    <ul>
+      <li><strong>Camera access</strong> so you can photograph a meal or menu;</li>
+      <li><strong>Photo-library access</strong> so you can select an image; and</li>
+      <li><strong>Notification permission</strong> so MealKind can send meal check-ins.</li>
+    </ul>
+
+    <p>
+      MealKind accesses only the photos you capture or select through the App. You
+      can change camera, photo, and notification permissions in iOS Settings.
+      Declining notifications does not prevent you from using MealKind’s other
+      features.
+    </p>
+
+    <h2>3. How We Use Information</h2>
+
+    <p>We use information to:</p>
+
+    <ul>
+      <li>Create, authenticate, maintain, and delete MealKind accounts;</li>
+      <li>Analyze meals and menus at your request;</li>
+      <li>Generate practical, personalized meal suggestions;</li>
+      <li>Apply your dietary preferences, allergies, avoided foods, and current context;</li>
+      <li>Prioritize realistic local options when Travel mode is enabled;</li>
+      <li>Remember your local settings and meal history;</li>
+      <li>Send meal reminders when notifications are enabled;</li>
+      <li>Verify purchases and subscription access;</li>
+      <li>Apply free-use and subscription usage limits;</li>
+      <li>Prevent fraud, abuse, unauthorized access, and security incidents;</li>
+      <li>Diagnose technical problems and maintain reliability;</li>
+      <li>Respond to support, privacy, and account-deletion requests; and</li>
+      <li>Comply with legal obligations and enforce our agreements.</li>
+    </ul>
+
+    <h2>4. AI Processing</h2>
+
+    <p>
+      MealKind uses OpenAI’s API to provide AI-powered meal analysis and
+      suggestions. MealKind requests that API responses are not stored as
+      application state by setting <code>store: false</code>.
+    </p>
+
+    <p>
+      Under OpenAI’s current API data controls, API inputs and outputs are not
+      used to train OpenAI models unless the API customer explicitly opts in.
+      A+ Apps does not opt in to using MealKind API content for model training.
+    </p>
+
+    <p>
+      OpenAI may retain API inputs, outputs, and related metadata for up to 30
+      days for abuse monitoring, security, and legal compliance, unless a longer
+      period is required by law or permitted under OpenAI’s policies.
+    </p>
+
+    <p>
+      We do not intentionally send your email address or MealKind account
+      identifier to OpenAI as part of meal content. However, a photo or free-text
+      description could contain personal information if you include it. Please do
+      not submit information that is unnecessary for receiving a meal suggestion.
+    </p>
+
+    <p>
+      AI-generated suggestions may be inaccurate. MealKind does not provide
+      medical diagnosis, treatment, or professional dietary advice. A photo
+      cannot establish ingredients, preparation methods, or allergen safety.
+      Always confirm allergy information directly with the person or business
+      preparing the food.
+    </p>
+
+    <h2>5. Service Providers</h2>
+
+    <p>
+      We use the following providers to operate MealKind:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Supabase</strong> — authentication, backend functions, server-side
+        AI usage counters, purchase-status records, and reminder-delivery state.
+        <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
+          Supabase Privacy Policy
+        </a>
+      </li>
+
+      <li>
+        <strong>OpenAI</strong> — AI-powered analysis and recommendation generation.
+        <a
+          href="https://openai.com/policies/privacy-policy/"
+          target="_blank"
+          rel="noopener noreferrer">
+          OpenAI Privacy Policy
+        </a>
+      </li>
+
+      <li>
+        <strong>RevenueCat</strong> — subscription entitlement and purchase-status verification.
+        <a
+          href="https://www.revenuecat.com/privacy/"
+          target="_blank"
+          rel="noopener noreferrer">
+          RevenueCat Privacy Policy
+        </a>
+      </li>
+
+      <li>
+        <strong>OneSignal</strong> — push-notification registration, delivery, and engagement.
+        <a
+          href="https://onesignal.com/privacy_policy"
+          target="_blank"
+          rel="noopener noreferrer">
+          OneSignal Privacy Policy
+        </a>
+      </li>
+
+      <li>
+        <strong>Apple</strong> — Sign in with Apple, App Store purchases, subscription management,
+        notifications, and optional iCloud backups.
+        <a
+          href="https://www.apple.com/legal/privacy/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Apple Privacy Policy
+        </a>
+      </li>
+
+      <li>
+        <strong>Google</strong> — Google sign-in and email-based support services.
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer">
+          Google Privacy Policy
+        </a>
+      </li>
+    </ul>
+
+    <p>
+      We require service providers processing personal information on our behalf
+      to protect it consistently with this policy and applicable law, and to use
+      it only as necessary to provide their contracted services. Their processing
+      is also governed by their applicable terms and privacy notices.
+    </p>
+
+    <h2>6. How Information Is Shared</h2>
+
+    <p>We may share information:</p>
+
+    <ul>
+      <li>With the service providers identified above to operate MealKind;</li>
+      <li>When you direct or consent to the sharing;</li>
+      <li>When required by law, legal process, or a valid governmental request;</li>
+      <li>To investigate fraud, abuse, security incidents, or violations of our terms;</li>
+      <li>To protect the rights, safety, and property of users, A+ Apps, or others; or</li>
+      <li>
+        In connection with a merger, acquisition, financing, reorganization, or
+        sale of assets, subject to appropriate confidentiality and data-protection requirements.
+      </li>
+    </ul>
+
+    <p>
+      We do not sell or rent personal information. We do not share personal
+      information for cross-context behavioral advertising, and MealKind does not
+      contain third-party advertising.
+    </p>
+
+    <h2>7. Data Retention</h2>
+
+    <p>We retain information only for as long as reasonably necessary to:</p>
+
+    <ul>
+      <li>Provide the App and requested features;</li>
+      <li>Maintain account and subscription access;</li>
+      <li>Meet security, fraud-prevention, accounting, and legal obligations;</li>
+      <li>Resolve disputes and support requests; and</li>
+      <li>Enforce applicable agreements.</li>
+    </ul>
+
+    <p>
+      Local meal history is subject to MealKind’s rolling local-history cleanup
+      and may otherwise remain until you delete it, delete your account, or
+      uninstall the App. Preferences remain until you change them, delete your
+      account, or remove the App. Copies in an iCloud device backup may remain
+      according to your Apple and iCloud settings.
+    </p>
+
+    <p>
+      Supabase account, AI-usage, billing-status, and reminder-delivery records
+      are retained while needed to provide the service and are deleted or
+      disassociated when successful account deletion is completed, except where
+      retention is required for security or legal compliance.
+    </p>
+
+    <p>
+      OpenAI may retain API content for up to 30 days as described above. Other
+      service providers retain information according to their own policies,
+      contractual obligations, and legal requirements.
+    </p>
+
+    <p>
+      Support correspondence may be retained for as long as reasonably necessary
+      to answer the request, maintain support records, resolve disputes, and
+      comply with legal obligations.
+    </p>
+
+    <h2>8. Your Controls and Choices</h2>
+
+    <h3>AI permission</h3>
+    <p>
+      MealKind asks for permission before making an AI request. You can withdraw
+      permission under <strong>Settings → Privacy and storage → Withdraw AI permission</strong>.
+      Withdrawing permission stops future AI requests until you grant permission
+      again. It does not retroactively remove information already processed by a
+      provider during its permitted retention period.
+    </p>
+
+    <h3>Local history</h3>
+    <p>
+      You can remove local meals, menus, photos, and feedback under
+      <strong>Settings → Privacy and storage → Delete local history</strong>.
+      This action keeps your account and saved preferences.
+    </p>
+
+    <h3>Travel mode</h3>
+    <p>
+      You can turn off Travel mode from Settings. Turning it off removes the
+      stored travel city from MealKind’s active preference context and prevents
+      it from being included in future AI requests.
+    </p>
+
+    <h3>Notifications</h3>
+    <p>
+      You can disable meal reminders inside MealKind or change notification
+      permission in iOS Settings.
+    </p>
+
+    <h3>Subscriptions</h3>
+    <p>
+      You can manage or cancel your subscription through
+      <a
+        href="https://apps.apple.com/account/subscriptions"
+        target="_blank"
+        rel="noopener noreferrer">
+        Apple subscription settings
+      </a>.
+    </p>
+
+    <h2>9. Account Deletion</h2>
+
+    <p>
+      You can delete your account inside MealKind under
+      <strong>Settings → Account → Delete account</strong>.
+    </p>
+
+    <p>After successful account deletion, MealKind:</p>
+
+    <ul>
+      <li>Deletes your Supabase authentication account;</li>
+      <li>Deletes server-side AI usage, billing-status, and reminder records associated with it;</li>
+      <li>Requests deletion of the corresponding RevenueCat customer profile;</li>
+      <li>Requests deletion of the corresponding OneSignal user profile;</li>
+      <li>Revokes the applicable Sign in with Apple authorization when required; and</li>
+      <li>Deletes MealKind content and preferences stored for that account on the device.</li>
+    </ul>
+
+    <p>
+      Deleting your MealKind account does not automatically cancel an active App
+      Store subscription. Subscriptions must be managed separately through Apple.
+      Apple may retain transaction information under its own legal and accounting
+      obligations.
+    </p>
+
+    <p>
+      You may also request help with account deletion by emailing
+      <a href="mailto:aplusapps.app@gmail.com">aplusapps.app@gmail.com</a>.
+      We may need to verify that you control the account before acting on a request.
+    </p>
+
+    <h2>10. Your Privacy Rights</h2>
+
+    <p>
+      Depending on where you live, you may have rights to:
+    </p>
+
+    <ul>
+      <li>Request access to personal information associated with you;</li>
+      <li>Request correction of inaccurate information;</li>
+      <li>Request deletion of personal information;</li>
+      <li>Request restriction of or object to certain processing;</li>
+      <li>Receive certain information in a portable format;</li>
+      <li>Withdraw consent where processing relies on consent; and</li>
+      <li>Submit a complaint to your local data-protection authority.</li>
+    </ul>
+
+    <p>
+      We do not discriminate against users for exercising applicable privacy
+      rights. To submit a request, contact
+      <a href="mailto:aplusapps.app@gmail.com">aplusapps.app@gmail.com</a>.
+      We may request reasonable information to verify your identity and account.
+    </p>
+
+    <h2>11. Legal Bases for Processing</h2>
+
+    <p>
+      Where laws such as the GDPR or UK GDPR apply, we process personal
+      information under one or more of these legal bases:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Performance of a contract</strong> — to create your account,
+        provide requested App features, and verify subscription access;
+      </li>
+      <li>
+        <strong>Consent</strong> — for optional AI processing, notifications, and
+        other processing where consent is requested;
+      </li>
+      <li>
+        <strong>Legitimate interests</strong> — to secure, maintain, troubleshoot,
+        and improve the reliability of MealKind, provided those interests do not
+        override your rights; and
+      </li>
+      <li>
+        <strong>Legal obligations</strong> — when processing is required to
+        comply with applicable law.
+      </li>
+    </ul>
+
+    <h2>12. Automated Processing</h2>
+
+    <p>
+      MealKind uses automated AI systems to analyze user-provided meal content
+      and generate suggestions. These results are informational and do not produce
+      legal or similarly significant decisions about you.
+    </p>
+
+    <p>
+      MealKind does not use AI suggestions to determine employment, credit,
+      insurance, eligibility, medical treatment, or access to essential services.
+    </p>
+
+    <h2>13. International Data Transfers</h2>
+
+    <p>
+      Our service providers may process information in countries other than the
+      country where you live. Those countries may have different data-protection
+      laws. Where required, we and our providers use appropriate contractual,
+      organizational, or legal safeguards for international transfers.
+    </p>
+
+    <h2>14. Data Security</h2>
+
+    <p>
+      We use reasonable administrative, technical, and organizational safeguards
+      designed to protect information. These include authenticated backend
+      requests, restricted server credentials, encrypted network connections,
+      server-side purchase verification, and limiting the information sent to
+      each provider.
+    </p>
+
+    <p>
+      No storage or transmission method is completely secure, so we cannot
+      guarantee absolute security.
+    </p>
+
+    <h2>15. Children’s Privacy</h2>
+
+    <p>
+      MealKind is not directed to children under 13, and we do not knowingly
+      collect personal information from children under 13. Where local law
+      requires a higher age for valid consent, a parent or legal guardian must
+      provide the required authorization.
+    </p>
+
+    <p>
+      If you believe a child has provided personal information without appropriate
+      authorization, contact us so we can investigate and delete it where required.
+    </p>
+
+    <h2>16. Changes to This Policy</h2>
+
+    <p>
+      We may update this Privacy Policy when MealKind’s features, providers, or
+      legal obligations change. We will update the “Last updated” date and provide
+      additional notice when required by law.
+    </p>
+
+    <h2>17. Contact Us</h2>
+
+    <p>
+      A+ Apps is responsible for MealKind’s privacy practices.
+    </p>
+
+    <p>
+      For privacy questions, requests, or complaints, contact:
+    </p>
+
+    <p>
+      <strong>A+ Apps</strong><br>
+      Email:
+      <a href="mailto:aplusapps.app@gmail.com">aplusapps.app@gmail.com</a><br>
+      Support:
+      <a href="https://aplusapps.app/mealkindai/support/">
+        https://aplusapps.app/mealkindai/support/
+      </a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2026 A+ Apps. All rights reserved.
+  </footer>
 </body>
 </html>
